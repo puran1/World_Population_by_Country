@@ -103,6 +103,7 @@ This is an attempt to analyze the data “World Population by Country” which i
 
 9.	Correlation Matrix
 
-  	 We use Pearson Correlation Coefficients to determine linear dependency between two features/columns. Columns area and landAreaKm are linearly 
+  	 We use Pearson Correlation Coefficients to determine linear relationship between two features/columns. Columns area and landAreaKm are linearly 
      dependent. worldPercentage and all the population columns by year are linearly dependent. density and densityMi are linearly dependent. Finally, all 
-     the columns for population by year are linearly dependent on each other.
+     the columns for population by year are linearly dependent on each other. For the above dependent features, Pearson Correlation Coefficients are
+  	 greater than 0.90.
